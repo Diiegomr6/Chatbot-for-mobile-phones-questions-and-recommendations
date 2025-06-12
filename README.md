@@ -1,6 +1,6 @@
 # Chatbot for Mobile Phone Questions and Recommendations
 
-This project implements a modular conversational assistant built in Python. The chatbot is designed to handle user interactions through intent detection, question answering, and recommendation generation. It combines large language models, a cloud-based backend, and a simple web interface to provide intelligent responses in real-time.
+This project implements a modular conversational assistant built in Python. It is a chatbot capable of answering technical questions about mobile phones and giving recommendation. This chatbot was developed for my Bachelor Tesis “Development of a chatbot based on Large Language Models and Retrieval Augmented Generation” for Universidad Carlos III de Madrid.
 
 ## Technologies Used
 
