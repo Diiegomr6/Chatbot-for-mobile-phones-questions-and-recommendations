@@ -33,5 +33,5 @@ The chatbot works by processing each user message in the following pipeline:
 
 - `qa_module.py`: Handles question answering. It queries Supabase for related documents using vector search, composes a prompt with the retrieved context, and calls OpenAI to generate a final answer.
 
-- `recommendation_hybrid_module.py`: Generates personalized recommendations by combining content-based filtering (matching user interests with item features) and collaborative filtering (based on similar user behavior). It interacts with Supabase to fetch and process user and item data.
+- `recommendation_hybrid_module.py`: Generates personalized recommendations by combining semantic search (using vector embeddings and retrieving similar models) and SQL-based filtering (generating a SQL query from the user question). It interacts with Supabase to fetch and process user and item data.
 
