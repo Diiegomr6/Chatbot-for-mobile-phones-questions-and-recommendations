@@ -19,8 +19,8 @@ from recommendation_hybrid_module import hybrid_recommend_phones
 #from opinion_module import give_opinion
 
 # Define Variables
-SUPABASE_URL = "https://lwfgrbldlcdmvapbqzlr.supabase.co"  
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx3ZmdyYmxkbGNkbXZhcGJxemxyIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczNzcxNTcxNSwiZXhwIjoyMDUzMjkxNzE1fQ.8aOe2yDreNGHMtezz0ji-agfBRI6rsgEP8AiW9fVQvE"
+SUPABASE_URL = "YOUR SUPABASE URL"  
+SUPABASE_KEY = "YOUR SUPABASE KEY"
 
 @st.cache_resource
 def initialize_all_vector_stores():
