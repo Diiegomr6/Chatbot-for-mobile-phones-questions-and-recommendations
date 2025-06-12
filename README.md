@@ -22,7 +22,7 @@ The chatbot works by processing each user message in the following pipeline:
    - The relevant information and original question are sent to the LLM for answer generation.
 4. **Recommendation**: If a recommendation is requested:
    - The system retrieves user and item data from Supabase.
-   - A hybrid recommendation is generated using content-based and collaborative signals.
+   - A hybrid recommendation is generated using similarity search and NL2SQL generation.
 5. **Response Generation**: The final output is displayed in the Streamlit interface.
 
 ## File Descriptions
