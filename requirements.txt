@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+re
+supabase
+langchain
+langchain-core
+langchain-openai
+langchain-community
+pandasql
