@@ -4,11 +4,11 @@ This project implements a modular conversational assistant built in Python. It i
 
 ## Technologies Used
 
-- **Python**: *Core programming language used to build all modules.*
-- **OpenAI GPT and embedding models**: *Used for natural language understanding, intent classification, and answer generation.*
-- **LangChain**: *Facilitates the creation of conversational agents and chatbots by managing prompt flows, memory, and integration with external tools and data sources.*
-- **Supabase**: *Acts as the backend database for storing user data, content, and embeddings. Also used for vector similarity search.*
-- **Streamlit**: *Provides a lightweight web interface for user interaction with the chatbot.*
+- **Python**: Core programming language used to build all modules.
+- **OpenAI GPT and embedding models**: Used for natural language understanding, intent classification, and answer generation.
+- **LangChain**: Facilitates the creation of conversational agents and chatbots by managing prompt flows, memory, and integration with external tools and data sources.
+- **Supabase**: Acts as the backend database for storing user data, content, and embeddings. Also used for vector similarity search.
+- **Streamlit**: Provides a lightweight web interface for user interaction with the chatbot.
 
 
 ## System Functionality
